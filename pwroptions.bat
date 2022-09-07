@@ -10,6 +10,9 @@ if /I "%c%" EQU "O" goto :O
 if /I "%c%" EQU "E" goto :E
 
 
+echo Success! %date% @%time%>pwroptions-logs.txt 
+
+
 :H
 shutdown /h
 
